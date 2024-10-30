@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'hizzle/downloads',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'abe5236b5590a190e3d7e245d9e8d9c47b8c916b',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'hizzle/downloads' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'abe5236b5590a190e3d7e245d9e8d9c47b8c916b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'hizzle/logger' => array(
+            'pretty_version' => '0.0.3',
+            'version' => '0.0.3.0',
+            'reference' => 'd5692e3bfa8acd69201ef9959bf07f1b55b783c7',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hizzle/logger',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'hizzle/store' => array(
+            'pretty_version' => '0.2.0',
+            'version' => '0.2.0.0',
+            'reference' => '7956abaeccdabd8f385b604fbfff5401b4c6ec59',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hizzle/store',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
